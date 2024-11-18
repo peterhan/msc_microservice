@@ -1,4 +1,4 @@
-package org.tutorial.sample;
+package org.tutorial.sample.controller;
 
 
 import org.springframework.web.bind.annotation.GetMapping;
@@ -15,6 +15,6 @@ public class HelloWorldController {
     }
     @GetMapping("/")
     public String rootPage() {
-        return "[/root] Hello World!";
+        return "[/] Hello World!";
     }
 }
